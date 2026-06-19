@@ -1,5 +1,5 @@
 [README.md](https://github.com/user-attachments/files/29140461/README.md)
-# CSS Recital - css-recital.netlify.app
+# CSS Recital 
 
 A concert-themed showcase of advanced CSS — built to prove a point: **CSS alone can carry state, motion, and interaction**, with HTML reduced to plain structure and JavaScript reserved for the two or three things it's genuinely needed for.
 
@@ -22,7 +22,7 @@ Six "movements," each isolating one advanced CSS technique inside a concert/inst
 | V. Largo | Sheet music | Infinite CSS marquee, **container queries** (`@container`) |
 | VI. Coda | Programme notes | The one deliberate JavaScript flourish |
 
-## Why it's ~95% CSS
+## Why it's ~95% CSS - www.css-recital.netlify.app
 
 The HTML is a single, mostly-empty skeleton — wrapper `<div>`s and `<span>`s with no inline styling, no utility classes, no component library. Every visual decision (shape, color, motion, and even *interactivity*) lives in `/css`. JavaScript is limited to two things CSS still can't do on its own:
 
