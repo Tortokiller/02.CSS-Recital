@@ -79,5 +79,6 @@ Built against current Chrome, Edge, and Safari. `@property` and `:has()` are sup
 MIT — fork it, restyle it, use it as a CSS reference.
 
 ---
+<div align="center">
 
-Built by [Tortokiller](https://github.com/Tortokiller) · [GetWeb.tech](https://getweb.tech)
+⚡ **Built by [GetWeb.tech](https://getweb.tech)** · Professional web design for small businesses · [Tortokiller](https://github.com/Tortokiller) · Barcelona · 2026
