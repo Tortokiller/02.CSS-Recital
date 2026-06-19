@@ -1,0 +1,13 @@
+/*
+  CSS Recital — main stylesheet
+  ------------------------------------------------------------
+  This file only orchestrates the partials below. Every visual
+  decision lives inside them — see /css for the full score.
+*/
+
+@import url("./variables.css");
+@import url("./base.css");
+@import url("./layout.css");
+@import url("./components.css");
+@import url("./animations.css");
+@import url("./responsive.css");

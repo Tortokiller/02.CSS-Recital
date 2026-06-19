@@ -1,0 +1,72 @@
+/* ==========================================================
+   BASE — reset, type rhythm, accessibility baseline
+   ========================================================== */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--c-void);
+  color: var(--c-string);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, p, ul, ol, li, figure { margin: 0; }
+ul, ol { padding: 0; list-style: none; }
+
+img, svg { display: block; max-width: 100%; }
+
+a { color: inherit; }
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--c-mist);
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+  color: var(--c-spotlight-2);
+}
+
+/* -- accessible, visible focus rings everywhere -- */
+:focus { outline: none; }
+:focus-visible {
+  outline: 2px solid var(--c-spotlight);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  background: var(--c-spotlight);
+  color: var(--c-ink);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-weight: 600;
+  z-index: 100;
+}
+.skip-link:focus {
+  left: var(--space-3);
+  top: var(--space-3);
+}
+
+/* -- respect the audience that asked for stillness -- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

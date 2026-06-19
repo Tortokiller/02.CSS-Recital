@@ -1,0 +1,38 @@
+/* ==========================================================
+   RESPONSIVE — the same score, transposed for smaller stages
+   ========================================================== */
+
+@media (max-width: 860px) {
+  .movement {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+    padding-block: var(--space-5);
+  }
+
+  .movement__label { position: static; }
+
+  .hero__curtain { width: 40%; }
+
+  .cello {
+    gap: var(--space-3);
+    padding: var(--space-4) var(--space-3);
+  }
+
+  .cello__string { height: 120px; }
+
+  .stage { height: 220px; }
+}
+
+@media (max-width: 520px) {
+  main { padding-inline: var(--space-3); }
+
+  .hero { padding: var(--space-3); }
+
+  .hero__title { font-size: clamp(2.6rem, 16vw, 4rem); }
+
+  .equalizer { height: 40px; }
+
+  .staff__notes { font-size: 1.4rem; }
+
+  .footer { gap: var(--space-3); }
+}
