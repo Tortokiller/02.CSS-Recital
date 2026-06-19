@@ -22,7 +22,7 @@ Six "movements," each isolating one advanced CSS technique inside a concert/inst
 | V. Largo | Sheet music | Infinite CSS marquee, **container queries** (`@container`) |
 | VI. Coda | Programme notes | The one deliberate JavaScript flourish |
 
-## Why it's ~95% CSS - www.css-recital.netlify.app
+## Why it's ~95% CSS - [www.css-recital.netlify.app](https://css-recital.netlify.app/)
 
 The HTML is a single, mostly-empty skeleton — wrapper `<div>`s and `<span>`s with no inline styling, no utility classes, no component library. Every visual decision (shape, color, motion, and even *interactivity*) lives in `/css`. JavaScript is limited to two things CSS still can't do on its own:
 
