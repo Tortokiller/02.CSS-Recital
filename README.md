@@ -13,6 +13,7 @@ A concert-themed showcase of advanced CSS — built to prove a point: **CSS alon
 
 Six "movements," each isolating one advanced CSS technique inside a concert/instrument metaphor:
 
+
 | Movement | Component | Technique |
 |---|---|---|
 | I. Allegro | Turntable | Hover/focus-driven state, conic & radial gradients, `transform-origin` |
